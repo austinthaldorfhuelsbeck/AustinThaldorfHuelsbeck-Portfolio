@@ -1,0 +1,132 @@
+/*
+  h1, h2, and h3 should be center aligned, also create a .align-center class
+  EDIT: added in the ordered list
+*/
+h1, h2, h3, ol, .align-center {
+  text-align: center;
+}
+
+/* h1 and h2 should be uppercase, also create a .uppercase class */
+h1, h2, .uppercase {
+  text-transform: uppercase;
+}
+
+/* Style each heading to customize font settings and color */
+h1 {
+  font-family: 'Calluna Sans', 'Gill Sans', Calibri, sans-serif;
+  color: #c25638;
+  font-size: 25px;
+  font-style: strong;
+  letter-spacing: 0.15em;
+}
+
+h2 {
+  font-family: 'Calluna Sans', 'Gill Sans', Calibri, sans-serif;
+  color: #5f6e8c;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+}
+
+h3 {
+  font-family: 'Bebas Neue', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #c25638;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+/* Font and settings for regular ol' paragraph text */
+p {
+  font-family: 'Questa Grande', Helvetica, Tahoma,, Times, serif;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* Make the unordered list slightly weightier */
+ul {
+  font-family: 'Questa Grande', Helvetica, Tahoma,, Times, serif;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Make the ordered list special */
+ol {
+  font-family: 'Bebas Neue', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #454545;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  width: 75px;
+  margin: auto;
+}
+
+/* Customize the upper nav bar */
+
+nav.nav-top {
+  text-align: right;
+  font-family: 'Brandon Grotesque', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  padding: 15px;
+}
+
+nav.nav-bottom {
+  text-align: right;
+  font-family: 'Calluna Sans', 'Gill Sans', Calibri, sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+  padding: 15px;
+}
+
+/* Classes */
+
+.wrapper {
+  width: 425px;
+  margin: auto;
+}
+
+.stretch-to-fit {
+  width: 100%;
+}
+
+.circle-image {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Pseudo-classes for links */
+a:link    { color: #454545; }
+a:visited { color: #454545; }
+a:hover   { color: #bc4f24; }
+a:active  { color: #bc4f24; }
+/* Remove underlines from links */
+a:link {
+  text-decoration: none;
+}
+
+/* Default bg color */
+
+body {
+    background-color: #dedbd2;
+}
+
+/* Class for alternating bg color */
+
+.light-background {
+  background-color: #f7f4ea;
+}
+
+/* Pad every section a bit */
+
+article, div {
+  padding: 10px;
+}
