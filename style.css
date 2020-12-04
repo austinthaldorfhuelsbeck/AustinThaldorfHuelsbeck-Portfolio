@@ -125,8 +125,9 @@ body {
   background-color: #f7f4ea;
 }
 
-/* Pad every section a bit */
+/* Set each section element's height to display properly and add a little padding */
 
 article, div {
+  height: auto;
   padding: 10px;
 }
